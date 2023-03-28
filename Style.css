@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/bg\ m1.jpg);
+   background-position: bottom; 
+    background-repeat: center;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    color: lemonchiffon;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 4px 0  #95A5A6;
+    transition: 0.4s;
+    font-size: 0;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    border-radius: 18px;
+    
+}
+
+.card:hover{
+    box-shadow: 0 10px 22px 0  #95A5A6;
+}
+
+.calc-head #result{
+    width: 335px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 6px;
+    letter-spacing: 3px;
+    background: transparent;
+    border-radius: 18px;
+    border-style: dotted;
+    border-color: #e9d362;
+ 
+}
+.calc-head #result:hover{
+    background-color: #7F8C8D;
+    opacity: 0.6;
+    border-style: double;
+}
+.btn{
+    width: 87px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    border-style: double;
+
+    border-color: #e9d362;
+    background: transparent;
+    color: #e9d362;
+    transition: 200ms;   
+}
+
+
+.btn-style{
+    background-color: whitesmoke;
+    opacity: 0.3;
+    color: darkorange;
+}
+
+.btn:hover{
+    background-color: #7F8C8D ;
+    opacity: 0.6;
+    border-color: darkslategray;
+    border-style: dotted;
+    padding-left:15px;
+}
